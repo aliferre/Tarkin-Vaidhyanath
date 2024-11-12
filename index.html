@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f4f4f4;
+    }
+
+
+    header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+    }
+
+    nav a {
+        color: white;
+        padding: 15px 20px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    nav a:hover {
+        background-color: #575757;
+    }
+
+
+    .container {
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+        color: #4CAF50;
+    }
+
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .product {
+        background: white;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: calc(33.333% - 20px);
+        text-align: center;
+    }
+
+    .product img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .product h3 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .product p {
+        font-size: 0.9em;
+        color: #666;
+    }
+
+    .product button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .product button:hover {
+        background-color: #45a049;
+    }
+
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-top: 20px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    .contact-form button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    .contact-form button:hover {
+        background-color: #45a049;
+    }
+
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    </style>
+
+    <title>Tarkin Vaidhyanath - Empresa de Tecnologia</title>
+</head>
+<body>
+
+  
+    <header>
+        <h1>Tarkin Vaidhyanath - Empresa de Tecnologia</h1>
+        <p>Trazendo a você os melhores produtos de tecnologia a preços imbatíveis</p>
+    </header>
+
+    
+    <nav>
+        <a href="#serviço">Serviços</a>
+        <a href="#products">Produtos</a>
+        <a href="#contact">Contatos</a>
+    </nav>
+
+  
+    <div class="container">
+
+        
+        <section id="home">
+            <h2>Bem-vindo ao nosso mundo tecnológico</h2>
+            <p>Na Tech Company de Tarkin Vaidhyanath, fornecemos soluções tecnológicas inovadoras e produtos de alta qualidade para mantê-lo à frente da curva. Explore nossos produtos em promoção abaixo!</p>
+        </section>
+
+        
+        <section id="produtos">
+            <h2>Produtos em destaque em promoção</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRf9rHTFYT-Oh-QX8pHeHG58KFPOpuu5SzcmT2Im1uWvY07sHNdpwDZ6sILYHWZoBVtzH5ggcAdtHNMLW-KlVvifXEDlymi8JREz3s51aeyFlCP9G0X6dvOLQ&usqp=CAE" alt="Product 1">
+                    <h3>Smartphone Pro X</h3>
+                    <p>O que há de mais moderno em tecnologia de smartphones. Agora com um preço especial!</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT9PE4PRsvomtItEP4fJzG9bJeVjPyVzDy0lEi26kQZPpzPgbkef6d_iGNnqJZDjuHSybIn2MXS933pWAHKeaW7WnEMjQwCswNoMlBmXWvzWmpI8EfLJaji&usqp=CAE" alt="Product 2">
+                    <h3>Wireless Earbuds</h3>
+                    <p>Experimente um som de alta qualidade sem o incômodo de fios.</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRiaYfC1rdiwEHxqAr_2OBx_AJ2rGapyOwYMM4yG-Sf2YRa05YDoCEtwQC4aDiG4bM_BTz3i4XIMqdHxZ_f-b_MFOCO9pdzceIlAVzL-msOpaiFdjj9mqmL&usqp=CAE" alt="Product 3">
+                    <h3>Smart Watch</h3>
+                    <p>Fique conectado e monitore sua saúde em qualquer lugar.</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Tem dúvidas sobre nossos produtos ou precisa de mais informações? Preencha o formulário abaixo e entraremos em contato com você em breve.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="5" placeholder="Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tarkin Vaidhyanath - Technology Company. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const oldMessage = document.querySelector('.confirmation-message');
+            if (oldMessage) {
+                oldMessage.remove();
+            }
+        
+            const message = document.createElement('p');
+            message.textContent = 'Mensagem enviada! Entraremos em contato com você em breve.';
+            message.classList.add('confirmation-message');
+            message.style.color = 'green';
+            document.querySelector('.contact-form').appendChild(message);
+        
+            setTimeout(() => {
+                message.remove();
+            }, 5000);
+    });
+    </script>
+</body>
+</html>
